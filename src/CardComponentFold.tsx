@@ -2,6 +2,11 @@ import React from 'react'
 import {Box, Flex} from "theme-ui"
 import Card from './components/Card';
 
+/* eslint-disable import/no-webpack-loader-syntax */
+// @ts-ignore
+import Content from '!babel-loader!@mdx-js/loader!./Content.mdx'
+
+
 const customStyles = {
     box: {
         maxWidth: "315px", // overriding default maxWidth
@@ -47,6 +52,14 @@ const CardComponent: React.FC = () => {
                       bgImageSrcHover={"capital-dark-bg.svg"}
                 />
             </Flex>
+            <Box sx={{
+                backgroundColor: "pink.800",
+                margin: "16px",
+                padding: "16px"
+
+            }}>
+                <Content/>
+            </Box>
         </Box>
     );
 }

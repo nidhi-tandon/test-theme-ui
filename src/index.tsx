@@ -36,6 +36,9 @@ const theme: Theme = {
             color: "primary",
             marginTop: "20px" // Only takes absolute values for defined spacing like 4,8,16. Something in between has to be given on px
         },
+        p:{
+            fontSize: 3
+        }
     },
 }
 
