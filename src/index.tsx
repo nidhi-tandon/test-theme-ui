@@ -7,10 +7,10 @@ import {ColorMode, ThemeProvider, Theme} from 'theme-ui'
 import CardComponent from "./CardComponentFold";
 
 const colors: ColorMode = {
-    background: '#f0ecf1',
-    200: "",
+    background: 'ffffff',
     pink: {
-        800: "#ee5a6c"
+        800: "#ee5a6c",
+        200: '#f0ecf1',
     },
     blue: {
         800: "#04093f"

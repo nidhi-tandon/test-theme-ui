@@ -33,7 +33,7 @@ const CustomCard: React.FC<Props> = ({title, description, linkText, iconSrc, sx,
     }
 
     return (
-        <Card backgroundColor="background.blue.800" // theme color
+        <Card backgroundColor="blue.800" // theme color
               sx={boxStyles}>
             <Box padding="35px 25px">
                 <Image src={iconSrc} marginTop="100px" height={"44px"}/>
